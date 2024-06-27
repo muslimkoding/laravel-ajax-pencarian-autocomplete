@@ -76,9 +76,10 @@ composer create-project laravel/laravel laravel-ajax-pencarian-autocomplete
 ## Langkah 3 : Buat Model Barang & Migrasi
 ```
 php artisan make:model Barang -m
+```
 
 tambahkan 1 kolom nama_barang pada tabel migrasi barang :
-
+```
 Schema::create('barangs', function (Blueprint $table) {
    $table->id();
    $table->string('nama_barang');
