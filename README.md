@@ -72,7 +72,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 composer create-project laravel/laravel laravel-ajax-pencarian-autocomplete
 ```
 
-## Langkah 2 : Buat Database : laravel-ajax-pencarian-autocomplete
+## Langkah 2 : Buat Database : `laravel-ajax-pencarian-autocomplete`
 ## Langkah 3 : Buat Model Barang & Migrasi
 ```
 php artisan make:model Barang -m
