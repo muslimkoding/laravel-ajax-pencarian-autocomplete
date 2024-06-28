@@ -19,7 +19,7 @@ class SearchController extends Controller
         foreach($data as $row)
         {
         $output .= '
-        <li><a class="p-2" href="#">'.$row->nama_barang.'</a></li>
+        <li><a class="p-2" href="/produk/'.$row->id.'">'.$row->nama_barang.'</a></li>
         ';
         }
         $output .= '</ul>';
